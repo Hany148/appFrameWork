@@ -1,0 +1,22 @@
+.the-body
+{
+    background-color: #1abc9c;
+}
+span
+{
+    background-color: white;
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    vertical-align: middle;
+}
+i
+{
+    margin-inline: 8px;
+    vertical-align: middle;
+}
+
+img
+{
+    width: 250px;
+}

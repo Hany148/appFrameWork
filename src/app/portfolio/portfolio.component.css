@@ -1,0 +1,66 @@
+
+.color
+{
+    color: #2C3E50;
+}
+
+
+span
+{
+    background-color: #2C3E50;
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    vertical-align: middle;
+}
+.fa-star
+{
+    vertical-align: middle;
+    margin-inline: 8px;
+}
+
+ .parent-image
+{
+    position: relative;
+} 
+ .for-image
+{
+    background-color: #1abc9ce6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s opacity ;
+}
+.parent-image:hover .for-image
+{
+     opacity: 1;
+} 
+
+
+.margin-top
+{
+    margin-top: 85px !important;
+}
+
+
+.image
+{
+    width: 600px;
+}
+
+.layer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0D6EFD40;
+    z-index: 2000;
+}
